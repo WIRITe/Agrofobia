@@ -45,7 +45,7 @@ public class Dungeon : MonoBehaviour
 
         Player.GetComponent<CapsuleCollider>().enabled = true;
         Player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-        Player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY;
+        Player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         Player.transform.position = Pos.position;
         Player.transform.rotation = Pos.rotation;
     }
