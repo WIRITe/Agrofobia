@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a319517a2db086f43b595ec6809b3136
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Little Face
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e28977b80f43e3543b2921f2ddb1569e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
