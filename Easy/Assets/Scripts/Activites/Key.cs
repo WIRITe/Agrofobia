@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject lattice;
 
-    // Update is called once per frame
-    void Update()
+    public static bool getedKey;
+
+    public static GameObject KeyInHand;
+
+    public AudioClip SoundOpenLattice;
+    public AudioSource _audio;
+
+    public GameObject KeyAll;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if(other.tag == "Player")
+        {
+            if (getedKey)
+            {
+                lattice.SetActive(false);
+                _audio.PlayOneShot(SoundOpenLattice);
+                Destroy(KeyInHand); 
+                Destroy(KeyAll);
+            }
+        }
     }
 }
