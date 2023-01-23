@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-    public GameObject lattice;
+    public GameObject[] lattice;
 
     public static bool getedKey;
 
@@ -14,6 +14,7 @@ public class Key : MonoBehaviour
     public AudioSource _audio;
 
     public GameObject KeyAll;
+    public bool DoNeedToTurnOffKey;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,10 +22,10 @@ public class Key : MonoBehaviour
         {
             if (getedKey)
             {
-                lattice.SetActive(false);
+                for(int i = 0; i < lattice.Length; i++) { lattice[i].SetActive(false); }
                 _audio.PlayOneShot(SoundOpenLattice);
                 Destroy(KeyInHand); 
-                Destroy(KeyAll);
+                if(DoNeedToTurnOffKey) Destroy(KeyAll);
             }
         }
     }
