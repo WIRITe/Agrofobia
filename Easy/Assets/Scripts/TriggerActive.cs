@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 public class TriggerActive : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class TriggerActive : MonoBehaviour
     public AudioSource audio;
     public AudioClip Musicc;
 
+    public bool TurnOffRightAfter;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -36,6 +39,15 @@ public class TriggerActive : MonoBehaviour
                     {
                         Seting_Active[i].SetActive(OffOnExit);
                     }
+
+                    if(TurnOffRightAfter)
+                    {
+                        for (int i = 0; i < Seting_Off.Length; i++)
+                        {
+                            Seting_Off[i].SetActive(!OffOnExit);
+                        }
+                    }
+
                     First= false;
                     if (Music)
                     {
@@ -61,9 +73,12 @@ public class TriggerActive : MonoBehaviour
     {
         if (other.tag == "Player" && DoNeedToTurnOff)
         {
-            for (int i = 0; i < Seting_Off.Length; i++)
+            if (!TurnOffRightAfter)
             {
-                Seting_Off[i].SetActive(!OffOnExit);
+                for (int i = 0; i < Seting_Off.Length; i++)
+                {
+                    Seting_Off[i].SetActive(!OffOnExit);
+                }
             }
         }
     }

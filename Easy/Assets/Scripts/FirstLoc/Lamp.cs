@@ -15,6 +15,7 @@ public class Lamp : MonoBehaviour
             audio.PlayOneShot(TakeMusic);
             GameObject obj = other.gameObject;
             GameObject H =  Instantiate(lamp, obj.transform.position + new Vector3(0.514f, 0.276f, 0.361f), lamp.transform.rotation);
+
             H.transform.SetParent(obj.transform);
             Destroy(gameObject);
             
