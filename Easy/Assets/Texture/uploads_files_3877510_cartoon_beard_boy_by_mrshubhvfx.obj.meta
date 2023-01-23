@@ -22,7 +22,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -51,7 +51,7 @@ ModelImporter:
     weldVertices: 1
     bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
+    skinWeightsMode: 1
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
@@ -79,7 +79,232 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bodypolySurface10polySurface12674_boy
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__boy_hair_polySurface1
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__pasted__polySurface8group2
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__pasted__polySurface8group3
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface360
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface362
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface364
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface371
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface406
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface408
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface409
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface410
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface411
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface412
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface413
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface414
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface415
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface416
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface417
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface418
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface419
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface420
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface421
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface422
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface423
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface424
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface425
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface426
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface427
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__polySurface428
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy__taoX1
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_body
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_bodypolySurface12672polySurface2
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_bodypolySurface12673polySurface10
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_bodypolySurface2polySurface12671
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_bodypolySurface5
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_group2_pasted__polySurface3
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_group3_pasted__polySurface3
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_katong
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_polySurface12638
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_polySurface12664
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_polySurface12667
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_polySurface12670
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: boy_Skin2
+      parentName: uploads_files_3877510_cartoon_beard_boy_by_mrshubhvfx(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -96,7 +321,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
