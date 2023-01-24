@@ -5,34 +5,46 @@ using UnityEngine;
 
 public class ClickTracking : MonoBehaviour
 {
+    public GameObject lattice;
+
     public AudioClip MusicOnRightAns;
     public AudioClip MusicOnNotRightAns;
 
-    public GameObject[] ButtonsWithRightAnswers;
-    public GameObject[] ButtonsWithNoRightAnswers;
+    public int howMathRightButtons;
 
     public AudioSource _audio;
 
     public Camera _camera;
+
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+
+            Ray _ray = _camera.ScreenPointToRay(new Vector3(Screen.width/2, Screen.height/2, 0));
+
             RaycastHit hit;
-            GameObject Switch;
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Physics.Raycast(_ray, out hit))
             {
-                if (Physics.Raycast(transform.position, transform.forward, out hit))
+                if (hit.collider.gameObject.GetComponent<ButtonConyrol>()) 
                 {
-                    if (ButtonsWithRightAnswers.Contains(hit.collider.gameObject))
-                    {
-
-                    }
+                    howMathRightButtons -= hit.collider.gameObject.GetComponent<ButtonConyrol>().IsItPressed(); 
                 }
+                    
             }
+            
+        }
+        if(howMathRightButtons <= 0)
+        {
+            WhenAllRight();
         }
     }
+
+    public void WhenAllRight()
+    {
+        lattice.SetActive(false);
     }
+}
