@@ -8,6 +8,7 @@ public class DescTrigger : MonoBehaviour
 {
     public GameObject scrPrsF;
     public int IndexNextLocation;
+    public GameObject Canv;
 
     public GameObject Scrtrtrt;
     public GameObject PrsFToSitScr;
@@ -28,6 +29,10 @@ public class DescTrigger : MonoBehaviour
     public Transform WherePut;
     public GameObject UiPutDiary;
     public GameObject DeskTrig;
+
+    public GameObject i;
+
+
     public bool DairyPuted;
 
 
@@ -86,9 +91,10 @@ public class DescTrigger : MonoBehaviour
 
     public void PuttingDiary()
     {
-        
+        Destroy(Canv);
             Instantiate(DiaryPref, WherePut.position, WherePut.rotation);
             DairyPuted = true;
+            
             UiPutDiary.SetActive(false);
             DeskTrig.SetActive(true);
         
@@ -98,6 +104,7 @@ public class DescTrigger : MonoBehaviour
 
     public void Ceir(GameObject Player)
     {
+        i.SetActive(false);
         Scrtrtrt.SetActive(false);
         PrsFToSitScr.SetActive(false);
 
