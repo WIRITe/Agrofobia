@@ -9,6 +9,8 @@ public class GoToNextLocation : MonoBehaviour
 
     public Transform PosToTeleport;
 
+    public bool IsDoorBlocked = false;
+
     public enum TypeOfGoingToNextScene
     {
         Teleport, 
@@ -19,15 +21,18 @@ public class GoToNextLocation : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (!IsDoorBlocked)
         {
-            if(HowGoToNextScene == TypeOfGoingToNextScene.GoToNextScene)
+            if (other.tag == "Player")
             {
-                goToNextLocation();
-            }
-            else
-            {
-                other.transform.position = PosToTeleport.position;
+                if (HowGoToNextScene == TypeOfGoingToNextScene.GoToNextScene)
+                {
+                    goToNextLocation();
+                }
+                else
+                {
+                    other.transform.position = PosToTeleport.position;
+                }
             }
         }
     }

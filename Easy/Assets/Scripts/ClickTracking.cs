@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class ClickTracking : MonoBehaviour
 {
+    public GameObject[] ObgOffOnRightEnter;
+
     public GameObject lattice;
 
     public AudioClip MusicOnRightAns;
@@ -37,6 +39,7 @@ public class ClickTracking : MonoBehaviour
             }
             
         }
+
         if(howMathRightButtons <= 0)
         {
             WhenAllRight();
@@ -45,6 +48,11 @@ public class ClickTracking : MonoBehaviour
 
     public void WhenAllRight()
     {
+        for(int i = 0; i < ObgOffOnRightEnter.Length; i++)
+        {
+            ObgOffOnRightEnter[i].SetActive(true);
+        }
+
         lattice.SetActive(false);
     }
 }
