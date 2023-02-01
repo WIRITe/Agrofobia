@@ -441,6 +441,7 @@
 "Assets/Scripts/Text.cs"
 "Assets/Scripts/Trigger.cs"
 "Assets/Scripts/TriggerActive.cs"
+"Assets/Scripts/TriggerNeed.cs"
 "Assets/Scripts/Txt.cs"
 "Assets/Shared/Ramps/Runtime/RampAsset.cs"
 "Assets/Shared/Scripts/AdjustTimeScale.cs"

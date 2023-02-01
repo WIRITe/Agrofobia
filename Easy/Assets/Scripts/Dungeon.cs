@@ -29,6 +29,8 @@ public class Dungeon : MonoBehaviour
     
         if (Timer >= TimerTo && time_end)
         {
+            Player.transform.position = new Vector3(Pos.position.x, Pos.position.y, Pos.position.z);
+
             if (Anim != null) Anim.SetBool("Finish", true);
 
             if (Teacher != null) Teacher.SetActive(false);
@@ -42,7 +44,7 @@ public class Dungeon : MonoBehaviour
 
     public void UnCeir()
     {
-        Player.transform.position = Pos.position;
+        if(Player.GetComponent<Animator>() != null) Player.GetComponent<Animator>().enabled = false;
 
         Debug.Log("gfvs");
         Player.GetComponent<FirstPersonController>().enabled = true;
@@ -50,7 +52,5 @@ public class Dungeon : MonoBehaviour
         Player.GetComponent<CapsuleCollider>().enabled = true;
         Player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         Player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
-
-        
     }
 }

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Activites\TextController.cs" />
     <Compile Include="Assets\Scripts\SpawnerOfPascalcs.cs" />
     <Compile Include="Assets\Scripts\SoundChange.cs" />
+    <Compile Include="Assets\Scripts\TriggerNeed.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Scripts\TriggerActive.cs" />
     <Compile Include="Assets\Scripts\Activites\Button.cs" />
