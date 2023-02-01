@@ -27,15 +27,13 @@ public class Dungeon : MonoBehaviour
     public void Update()
     {
     
-        if (Timer >= TimerTo && !time_end)
+        if (Timer >= TimerTo)
         {
             if (Anim != null) Anim.SetBool("Finish", true);
 
             if (Teacher != null) Teacher.SetActive(false);
 
             UnCeir();
-
-            time_end = true;
         }
         else { Timer += Time.deltaTime; }
         
