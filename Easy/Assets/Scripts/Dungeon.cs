@@ -15,7 +15,7 @@ public class Dungeon : MonoBehaviour
 
     public float TimerTo;
     private float Timer;
-    private bool time_end = false;
+    private bool time_end = true;
 
     public void Start()
     {
@@ -27,26 +27,30 @@ public class Dungeon : MonoBehaviour
     public void Update()
     {
     
-        if (Timer >= TimerTo)
+        if (Timer >= TimerTo && time_end)
         {
             if (Anim != null) Anim.SetBool("Finish", true);
 
             if (Teacher != null) Teacher.SetActive(false);
 
             UnCeir();
+            time_end = false;
         }
         else { Timer += Time.deltaTime; }
-        
+        Debug.Log(Timer);
     }
 
     public void UnCeir()
     {
+        Player.transform.position = Pos.position;
+
+        Debug.Log("gfvs");
         Player.GetComponent<FirstPersonController>().enabled = true;
 
         Player.GetComponent<CapsuleCollider>().enabled = true;
         Player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         Player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
-        Player.transform.position = Pos.position;
-        Player.transform.rotation = Pos.rotation;
+
+        
     }
 }
