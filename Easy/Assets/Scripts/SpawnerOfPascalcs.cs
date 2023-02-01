@@ -12,6 +12,8 @@ public class SpawnerOfPascalcs : MonoBehaviour
 
     public string NameOfSeveList;
 
+    public bool get_list = false;
+
     public void Start()
     {
         if(PlayerPrefs.GetString(NameOfSeveList).Length > 0)
@@ -37,6 +39,15 @@ public class SpawnerOfPascalcs : MonoBehaviour
                 GameObject H = Instantiate(ListOfPrafabsPascalcs[i], Positions[i].position, Positions[i].rotation);
                 H.GetComponent<PascObj>().selfNumber = i;
             }
+        }
+        get_list = true;
+    }
+
+    public void Update()
+    {
+        if (get_list)
+        {
+            PlayerPrefs.SetString(NameOfSeveList, listOfPascalcs);
         }
     }
 }

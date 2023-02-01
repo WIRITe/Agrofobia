@@ -6,20 +6,22 @@ using UnityEngine;
 public class PascObj : MonoBehaviour
 {
     public int selfNumber;
-    public string _str;
 
     public string NameOfSaveList;
 
+    public static string j = "1";
+
     public void OnTriggerEnter(Collider other)
     {
-        string o = SpawnerOfPascalcs.listOfPascalcs;
-        string j = "1";
+        string o = PlayerPrefs.GetString(NameOfSaveList);
 
-        StringBuilder sb = new StringBuilder(o);
-        sb[selfNumber] = j[0];
-        o = sb.ToString();
+        StringBuilder _sb = new StringBuilder(o);
 
-        PlayerPrefs.SetString(NameOfSaveList, o);
+        _sb[selfNumber] = j[0];
+
+        o = _sb.ToString();
+
+        SpawnerOfPascalcs.listOfPascalcs = o;
 
         Destroy(gameObject);
     }

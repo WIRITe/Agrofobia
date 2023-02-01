@@ -10,8 +10,6 @@ public class Dungeon : MonoBehaviour
     public GameObject Player;
     public Transform Pos;
 
-
-    public AnimationClip _anim;
     public Animator Anim;
 
 
@@ -22,7 +20,8 @@ public class Dungeon : MonoBehaviour
     public void Start()
     {
         Player.GetComponent<FirstPersonController>().enabled = false;
-        Anim.Play(_anim.name);
+
+        if(Anim != null) Anim.SetBool("Finish", false);
     }
 
     public void Update()
@@ -30,7 +29,10 @@ public class Dungeon : MonoBehaviour
     
         if (Timer >= TimerTo && !time_end)
         {
-            Teacher.SetActive(false);
+            if (Anim != null) Anim.SetBool("Finish", true);
+
+            if (Teacher != null) Teacher.SetActive(false);
+
             UnCeir();
 
             time_end = true;
