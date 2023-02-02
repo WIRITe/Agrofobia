@@ -13703,6 +13703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexOfScene: 3
   PosToTeleport: {fileID: 0}
+  IsDoorBlocked: 0
   HowGoToNextScene: 1
 --- !u!65 &579295196
 BoxCollider:
@@ -39471,6 +39472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexOfScene: 2
   PosToTeleport: {fileID: 1101997536}
+  IsDoorBlocked: 0
   HowGoToNextScene: 0
 --- !u!1 &1679347626
 GameObject:
@@ -47236,6 +47238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexOfScene: 2
   PosToTeleport: {fileID: 1195968132}
+  IsDoorBlocked: 0
   HowGoToNextScene: 0
 --- !u!23 &2044924166
 MeshRenderer:
@@ -71790,6 +71793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexOfScene: 2
   PosToTeleport: {fileID: 1402930972}
+  IsDoorBlocked: 0
   HowGoToNextScene: 0
 --- !u!23 &4535060012314659827
 MeshRenderer:
@@ -78617,6 +78621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexOfScene: 3
   PosToTeleport: {fileID: 508768445}
+  IsDoorBlocked: 0
   HowGoToNextScene: 0
 --- !u!65 &7718390322581504532
 BoxCollider:
