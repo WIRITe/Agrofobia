@@ -56214,8 +56214,8 @@ MonoBehaviour:
   playerCanMove: 1
   walkSpeed: 1.63
   maxVelocityChange: 10
-  enableSprint: 1
-  unlimitedSprint: 1
+  enableSprint: 0
+  unlimitedSprint: 0
   sprintKey: 304
   sprintSpeed: 6.99
   sprintDuration: 5

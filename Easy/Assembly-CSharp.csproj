@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\SoundChange.cs" />
     <Compile Include="Assets\Scripts\TriggerNeed.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\Scripts\DeadMenu.cs" />
     <Compile Include="Assets\Scripts\TriggerActive.cs" />
     <Compile Include="Assets\Scripts\Activites\Button.cs" />
     <Compile Include="Assets\Scripts\DiaryTriggerToDesk.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Scripts\Dungeon.cs" />
     <Compile Include="Assets\Scripts\Trigger.cs" />
     <Compile Include="Assets\Scripts\GoToNextLocation.cs" />
+    <Compile Include="Assets\Scripts\PlayerLive.cs" />
     <Compile Include="Assets\Scripts\Scrimers\LightScrimer.cs" />
     <Compile Include="Assets\BrokenVector\LowPolyDungeon\Demo Scenes\ScreenshotMaker.cs" />
     <Compile Include="Assets\Scripts\Activites\RotatingText.cs" />

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Shcool2.unity
+- path: Assets/Scenes/Koridor 2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
